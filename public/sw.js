@@ -78,6 +78,6 @@ function checkMedicationSchedules() {
   };
   
 }
-
+self.addEventListener('fetch',() => console.log("fetch"));
 // Call the checkMedicationSchedules function every minute
 setInterval(checkMedicationSchedules, 60000);

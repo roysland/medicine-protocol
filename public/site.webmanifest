@@ -1,6 +1,8 @@
 {
-    "name": "",
-    "short_name": "",
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Mine medisiner",
+    "short_name": "Mine Medisiner",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
