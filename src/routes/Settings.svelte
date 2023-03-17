@@ -23,6 +23,7 @@ function triggerNotification () {
         const notification = new Notification('Dette er en test')
     } else if (Notification.permission !== "denied") {
         Notification.requestPermission().then((permission) => {
+            message.message = "Du har ikke gitt tillatelse til å sende notifikasjoner."
             if (permission === "granted") {
                 const notification = new Notification('Dette er en test')
             }
